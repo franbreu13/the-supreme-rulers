@@ -4,27 +4,113 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Supreme Rulers</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file if you have one -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000814;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #001d3d;
+            padding: 1rem;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            color: #00aaff;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #003566;
+            padding: 0.5rem;
+        }
+        nav a {
+            color: #ffffff;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+        nav a:hover {
+            color: #00aaff;
+        }
+        section {
+            padding: 2rem;
+        }
+        .about, .join, .contact {
+            margin: 2rem 0;
+            padding: 1rem;
+            border: 1px solid #00aaff;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #001d3d;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        footer p {
+            margin: 0;
+            color: #00aaff;
+        }
+    </style>
 </head>
 <body>
     <header>
         <h1>Welcome to The Supreme Rulers</h1>
-        <nav>
-            <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="#join">Join Us</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
     </header>
-    <main>
-        <section>
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#join">Join Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section>
+        <div id="about" class="about">
             <h2>About Us</h2>
-            <p>Welcome to The Supreme Rulers, a corporation dedicated to conquering the stars in EVE Online.</p>
-        </section>
-    </main>
+            <p>We are The Supreme Rulers, a dynamic and diverse EVE Online corporation. Our mission is to dominate the universe through mastery of every category of gameplay, including:</p>
+            <ul>
+                <li><strong>PVP:</strong> Engage in epic battles and strategic warfare.</li>
+                <li><strong>Mining:</strong> Gather resources to fuel our conquests.</li>
+                <li><strong>Exploration:</strong> Discover new frontiers and ancient secrets.</li>
+                <li><strong>Trading:</strong> Build wealth through interstellar commerce.</li>
+                <li><strong>Industry:</strong> Craft advanced ships and technology.</li>
+                <li><strong>Mission Running:</strong> Complete high-stakes missions for rewards and glory.</li>
+            </ul>
+            <p>Our leader is a passionate novice, eager to learn and grow alongside the corporation. Join us as we carve our legacy across the stars!</p>
+        </div>
+        <div id="join" class="join">
+            <h2>Join Us</h2>
+            <p>Interested in becoming one of The Supreme Rulers? We welcome pilots of all skill levels! Apply today and take your place in our ranks.</p>
+            <p>Requirements:
+                <ul>
+                    <li>Active in EVE Online</li>
+                    <li>Willing to participate in corporation activities</li>
+                    <li>Team player with a drive for excellence</li>
+                </ul>
+            </p>
+            <p>Benefits:
+                <ul>
+                    <li>Access to corporation resources and fleets</li>
+                    <li>Guidance and training for new pilots</li>
+                    <li>A fun and supportive community</li>
+                </ul>
+            </p>
+        </div>
+        <div id="contact" class="contact">
+            <h2>Contact</h2>
+            <p>If you have any questions or would like to join, feel free to reach out to us via:</p>
+            <ul>
+                <li><strong>In-Game Chat:</strong> Join our channel "SupremeComms"</li>
+                <li><strong>Discord:</strong> [Insert Discord Link]</li>
+                <li><strong>Email:</strong> frankschreuder23@gmail.com</li>
+            </ul>
+        </div>
+    </section>
     <footer>
-        <p>&copy; 2023 The Supreme Rulers. All rights reserved.</p>
+        <p>&copy; 2024 The Supreme Rulers. All rights reserved.</p>
     </footer>
 </body>
 </html>
